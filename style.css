@@ -8,7 +8,7 @@ footer {
   text-align:center;
 }
 .background {
-  background-image: url(https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/Design-Guide-IO_3X2.png);
+  background-image: <img  src="img/sfondo.jpg";
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0px;
