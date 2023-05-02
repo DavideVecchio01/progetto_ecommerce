@@ -7,9 +7,3 @@ footer {
   font-size:15px;
   text-align:center;
 }
-.background {
-  background-image: url(https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/Design-Guide-IO_3X2.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 0px;
-}
