@@ -4,3 +4,7 @@
   background-attachment: fixed;
   margin: 0px;
 }
+
+.footer {
+  opacity: 0.5;
+}
