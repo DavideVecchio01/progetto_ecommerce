@@ -11,7 +11,7 @@ height: 800px;}
 }
 
 #contact h3 {
-	color: rgb(193, 49, 49);
+	color: rgb(100, 100, 100);
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
@@ -56,7 +56,7 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:rgb(237, 7, 7);
+	background:rgb(37, 40, 80);
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
