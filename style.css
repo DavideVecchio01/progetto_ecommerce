@@ -88,3 +88,6 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
+#contact-submit{
+	background-color: black;
+}
