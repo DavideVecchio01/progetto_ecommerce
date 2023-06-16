@@ -13,6 +13,43 @@
       height: 400px;
       width: 100%;
     }
+    .contact-form {
+      margin-top: 30px;
+    }
+    .contact-form h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .contact-form h3 {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+    .contact-form button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .contact-form button:hover {
+      background-color: #45a049;
+    }
+    @media (max-width: 768px) {
+      .contact-form {
+        margin-top: 0;
+      }
+    }
   </style>
 </head>
 
@@ -59,29 +96,31 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <form id="contact" action="" method="post">
-          <center>
-            <b>
-              <h2>LASCIACI QUI I TUOI DATI!</h2>
-              <h3>Verrai ricontattato nelle prossime 24h!</h3>
-            </b>
-          </center>
-          <fieldset>
-            <input placeholder="Inserisci qui il tuo nome e cognome" type="text" tabindex="1" required autofocus>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Inserisci la tua mail" type="email" tabindex="2" required>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Inserisci il tuo numero di telefono" type="tel" tabindex="3" required>
-          </fieldset>
-          <fieldset>
-            <textarea placeholder="Inserisci qui il tuo messaggio qui..." tabindex="5" required></textarea>
-          </fieldset>
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Invia</button>
-          </fieldset>
-        </form>
+        <div class="contact-form">
+          <form id="contact" action="" method="post">
+            <center>
+              <b>
+                <h2>LASCIACI QUI I TUOI DATI!</h2>
+                <h3>Verrai ricontattato nelle prossime 24h!</h3>
+              </b>
+            </center>
+            <fieldset>
+              <input placeholder="Inserisci qui il tuo nome e cognome" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+              <input placeholder="Inserisci la tua mail" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+              <input placeholder="Inserisci il tuo numero di telefono" type="tel" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+              <textarea placeholder="Inserisci qui il tuo messaggio qui..." tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Invia</button>
+            </fieldset>
+          </form>
+        </div>
       </div>
       <div class="col-md-6">
         <iframe
