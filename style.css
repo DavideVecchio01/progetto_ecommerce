@@ -56,7 +56,7 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:rgb(37, 40, 80);
+	background:HEX(#212529);
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
