@@ -100,6 +100,14 @@ fieldset {
   text-align: center;
 }
 
-.btn btn-primary{
-    background-color: #000000;
+
+
+
+#contact button[type="btn btn-primary"] {
+	background:HEX(#212529);
+	color:#FFF;
+}
+
+#contact button[type="btn btn-primary"]:hover {
+	background:rgb(100, 100, 100);
 }
