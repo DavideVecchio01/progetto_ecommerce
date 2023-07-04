@@ -99,6 +99,7 @@ fieldset {
   right: 30px;
   text-align: center;
 }
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+
+.btn btn-primary{
     background-color: #000066;
 }
