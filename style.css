@@ -1,3 +1,4 @@
+
 #map {
 	width: 100% !important;
 	height: 800px !important;
@@ -120,6 +121,11 @@ fieldset {
    #backtotop:hover {
 	background-color: #555;
   }
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+	color: #bfbfbf;
+}
 
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
     content: 'next';
