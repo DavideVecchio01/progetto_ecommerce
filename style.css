@@ -131,3 +131,7 @@ fieldset {
     content: 'next';
     color: #bfbfbf;
 }
+
+:root {
+    --swiper-theme-color: #495057;
+}
