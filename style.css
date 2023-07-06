@@ -114,9 +114,8 @@ fieldset {
 	cursor: pointer;
 	padding: 15px;
 	border-radius: 10px;
-	font-size: 18px;
+	font-size: 30px;
   }
   
   #backtotop:hover {
-	background-color: #555;
   }
