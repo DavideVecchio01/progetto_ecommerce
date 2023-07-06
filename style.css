@@ -1,4 +1,3 @@
-
 #map {
 	width: 100% !important;
 	height: 800px !important;
@@ -25,6 +24,8 @@
 	display:block;
 	font-size:13px;
 }
+
+
 
 fieldset {
 	border: medium none !important;
