@@ -120,3 +120,8 @@ fieldset {
    #backtotop:hover {
 	background-color: #555;
   }
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    color: #bfbfbf;
+}
