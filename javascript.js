@@ -1,6 +1,3 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-
-
 // Get the button:
 let mybutton = document.getElementById("backtotop");
 
