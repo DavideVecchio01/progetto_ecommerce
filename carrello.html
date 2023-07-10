@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="it">
+<!-- ChatGPT: mi scrivi una pagina html che usa bootstrap5 -->
+<html class="h-100" lang="it">
 
 <head>
   <meta charset="UTF-8">
@@ -10,16 +11,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column h-100">
+	<font face="Verdana" size="3">
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="img/logo_s.png" style="height:50px; margin-left:10px;  margin-right:10px;" alt="Logo">
-          Helmet Heaven
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div>
+          <img src="img/logo_s.png" style="height:50px; margin-left:10px;  margin-right:10px;">
+        </div>
+        <a class="navbar-brand">Helmet Heaven</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -40,68 +41,70 @@
               <a class="nav-link" href="contatti.html">Contatti</a>
             </li>
           </ul>
-          <a class="navbar-brand" href="carrello.html">
-            <img src="img/carrello.png" alt="Carrello" style="height: 40px; margin-left: 10px;">
+		  <a class="navbar-brand" href="carrello.html">
+            <img src="img/carrello.png" alt="Carrello" style="height: 40px;  margin-left: 600px;">
           </a>
         </div>
       </div>
     </nav>
   </header>
-
-  <main class="flex-grow-1">
-    <div class="container">
-      <h1>Carrello</h1>
-      <div class="table-responsive">
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Prodotto</th>
-              <th scope="col">Taglia</th>
-              <th scope="col">Quantità</th>
-              <th scope="col">Prezzo</th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>AIROH STRYCKER</td>
-              <td>L</td>
-              <td>1</td>
-              <td>€230</td>
-              <td><button class="btn btn-light">Rimuovi</button></td>
-            </tr>
-            <tr>
-              <td>SCORPION VX16</td>
-              <td>M</td>
-              <td>1</td>
-              <td>€85</td>
-              <td><button class="btn btn-light">Rimuovi</button></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="text-end">
-        <h4>Totale: €315</h4>
-        <button class="btn btn-light">Rimuovi tutto</button>
-        <a href="#" class="btn btn-primary">Procedi con l'acquisto</a>
-      </div>
+	</font>
+  <br>
+  <div class="container" style="width:100%;">
+    <h1>Carrello</h1>
+    <br>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Prodotto</th>
+          <th scope="col">Taglia</th>
+          <th scope="col">Quantità</th>
+          <th scope="col">Prezzo</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>AIROH STRYCKER</td>
+          <td>L</td>
+          <td>1</td>
+          <td>€230</td>
+          <td><button class="btn btn-light">Rimuovi</button></td>
+        </tr>
+        <tr>
+          <td>SCORPION VX16</td>
+          <td>M</td>
+          <td>1</td>
+          <td>€85</td>
+          <td><button class="btn btn-light">Rimuovi</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <div class="text-end">
+      <h4>Totale: €315</h4>
+      <br>
+      <button class="btn btn-light">Rimuovi tutto</button>
+      <a href="#" class="btn btn-primary">Procedi con l'acquisto</a>
     </div>
-  </main>
-
-  <footer class="bg-dark text-light py-3 mt-auto">
+  </div>
+  <br>
+  <br>
+  <br>
+  <footer class=" bg-dark text-light py-3 mt-auto">
     <div class="container text-center">
-      <p>&copy; Helmet Heaven srl - PI 01176320032</p>
-      <p>Privacy Policy (ita eng) | Cookie Policy (ita eng)</p>
-      <p>Helmet Heaven</p>
-      <p>Via Giovanni Verga 14, Bellinzago Novarese</p>
-      <p>helmetheaven@gmail.com</p>
+      <font face="Verdana" size="2">
+        © Helmet Heaven srl - PI 01176320032 <br> Privacy Policy (ita eng) | Cookie Policy (ita eng) <br>
+        Helmet Heaven
+        <br>Via Giovanni Verga 14, Bellinzago Novarese
+        <br>helmetheaven@gmail.com
+      </font>
     </div>
   </footer>
 
-  <button onclick="topFunction()" id="backtotop" title="Torna su">⇧</button>
-
+ <button onclick="topFunction()" id="backtotop" title="Torna su">⇧</button>
   <script src="javascript.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
