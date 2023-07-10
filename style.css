@@ -60,7 +60,7 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:HEX(#212529);
+	background:HEX(#495057);
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
@@ -68,7 +68,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-	background:rgb(100, 100, 100);
+	background:HEX(#212529);
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
